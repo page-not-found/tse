@@ -1,0 +1,39 @@
+#banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.2) url("assets/About-Us.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: white;
+}
+
+#banner h1 {
+  font-size: 75px;
+  font-weight: bold
+}
+
+#banner h3 {
+  background: black;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.heading {
+  font-weight:400;font-style:normal;color:#222585;font-size:50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Montserrat&display=swap');
+.about-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.paragraph {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
